@@ -91,13 +91,15 @@ a { text-decoration: none; }
 .mock-main span:nth-child(2) { width: 42%; background: #58e6ef; }
 .mock-main span:nth-child(3) { width: 75%; }
 .mock-chart { height: 44px; margin-top: 10px; border-radius: 4px; background: linear-gradient(140deg, rgba(88,230,239,.3), rgba(154,140,255,.12)); border: 1px solid rgba(88,230,239,.15); }
-.weather-card { width: 150px; height: 150px; border-radius: 14px; background: rgba(24,35,54,.9); border: 1px solid rgba(154,140,255,.2); text-align: center; padding: 12px; box-shadow: 0 15px 40px rgba(0,0,0,.2); }
-.weather-orb { color: #d6c7ff; font-size: 1.6rem; line-height: 1; }
-.weather-temp { font: 600 2rem var(--font-heading); }
-.weather-caption { color: #7e91a8; font-size: .55rem; letter-spacing: .12em; }
-.weather-bars { display: flex; gap: 5px; align-items: end; justify-content: center; height: 20px; margin-top: 8px; }
-.weather-bars i { width: 7px; background: #8b83e9; border-radius: 4px; height: 9px; }
-.weather-bars i:nth-child(2) { height: 15px; } .weather-bars i:nth-child(3) { height: 12px; } .weather-bars i:nth-child(4) { height: 19px; } .weather-bars i:nth-child(5) { height: 8px; }
+.login-card { width: 190px; height: 150px; border-radius: 12px; background: rgba(24,35,54,.96); border: 1px solid rgba(154,140,255,.28); padding: 13px; box-shadow: 0 15px 40px rgba(0,0,0,.25); }
+.login-card-head { display: flex; align-items: center; gap: 7px; color: #aab8c8; font-size: .58rem; letter-spacing: .04em; padding-bottom: 9px; border-bottom: 1px solid #314158; }
+.login-avatar { width: 22px; height: 22px; display: grid; place-items: center; border-radius: 50%; background: rgba(154,140,255,.18); border: 1px solid rgba(154,140,255,.35); color: #d5caff; font-size: .65rem; }
+.login-status { width: 6px; height: 6px; margin-left: auto; border-radius: 50%; background: #58e6ef; box-shadow: 0 0 8px rgba(88,230,239,.7); }
+.login-fields { display: grid; gap: 5px; margin-top: 8px; }
+.login-fields div { height: 27px; display: flex; align-items: center; justify-content: space-between; gap: 8px; border: 1px solid #2c3e52; border-radius: 5px; padding: 0 8px; background: #111b29; }
+.login-fields span { color: #71869b; font-size: .48rem; }
+.login-fields b { color: #c7d2df; font-size: .5rem; font-weight: 500; }
+.login-button { width: 100%; height: 25px; margin-top: 7px; border: 0; border-radius: 5px; background: linear-gradient(90deg, #58bce9, #958af0); color: #0d1420; font: 600 .55rem var(--font-heading); }
 .code-window { width: 90%; max-width: 270px; background: #0a111c; border: 1px solid #314355; border-radius: 7px; padding: 12px 15px; font: .65rem ui-monospace, monospace; color: #8ca0b4; box-shadow: 0 15px 30px rgba(0,0,0,.25); }
 .code-window-head { color: #6f879e; border-bottom: 1px solid #1f3042; padding-bottom: 6px; margin-bottom: 8px; }
 .code-window p { margin: 2px 0; }
